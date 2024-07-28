@@ -1,0 +1,32 @@
+.dn-shadow
+{
+	filter: drop-shadow(-2px 2px 8px black );
+}
+
+.dn-text-shadow
+{
+	text-shadow: -2px 2px 8px black ;
+}
+
+.dn-text-hero-shadow
+{
+	text-shadow: -2px 2px 0px black, 0px 0px 10px darkblue ;
+}
+
+.dn-full-shadow
+{
+	filter: drop-shadow(-2px 2px 8px black );	
+	text-shadow: -2px 2px 8px black ;
+}
+
+
+
+.dn-invert-100
+{
+	filter: invert(100%);
+}
+
+.dn-flipX
+{
+	transform: scaleX(-1);
+}

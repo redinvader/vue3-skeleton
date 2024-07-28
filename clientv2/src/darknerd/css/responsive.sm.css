@@ -1,0 +1,36 @@
+/* tem que ser declarado aqui e não inline pq inlite tem precedencia e o esquema não funfa */
+.rp-sm-display-block,
+.rp-sm-display-flex
+{
+	display:none;
+}
+/* breakpoint do bootstrap  */
+@media ( max-width: 576px )
+{
+	.rp-sm-debug
+	{
+		border: 2px solid magenta;
+	}
+
+	.rp-sm-display-none
+	{
+		display: none ;
+	}
+
+	.rp-sm-display-block
+	{
+		display: block;
+	}
+
+	.rp-sm-display-flex
+	{
+		display: flex;
+	}
+
+	.rp-sm-justify-center
+	{
+		justify-content: center !important;
+/*		border: 2px solid magenta;*/
+	}
+	
+}

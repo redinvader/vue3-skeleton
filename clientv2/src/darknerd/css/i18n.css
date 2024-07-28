@@ -1,0 +1,22 @@
+currency
+{
+	padding: 0 .8rem;
+/*	border: 2px solid cyan;*/
+	color: yellow;
+}
+
+currency symbol
+{
+	margin: 0 5px;
+	font-style: italic;
+}
+
+currency value
+{
+	font-size: 3rem;
+}
+
+currency cents
+{
+
+}

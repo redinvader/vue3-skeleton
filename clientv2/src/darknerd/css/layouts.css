@@ -1,0 +1,39 @@
+/* hero layout */
+.dn-hero-layout
+{
+	width: 100%;
+	min-height: 75vh;
+	position:relative;
+	overflow: hidden;
+
+	padding: 0;
+}
+
+.dn-hero-layout-back
+{
+	/* teoricamente a imagem - nesse esquema a imagem é uma tag <img />*/
+	position:absolute;
+	z-index:-1;
+	top:0;
+	/* setar o width e height da imagem é obrigatório para o object-fit funcionar */
+	width: 100%;
+	height:100%;
+	object-fit: cover;
+}
+
+.dn-hero-layout-front
+{
+	/* teoricamente o conteúdo */
+	position: absolute;
+	z-index: 1;
+}
+
+/***********/
+
+/* for debugs */
+.dn-layout-debug-box,
+.dn-debug-border
+{
+	border: 2px dashed white;
+	border-radius: 5px;
+}

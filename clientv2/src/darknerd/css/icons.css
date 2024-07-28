@@ -1,0 +1,59 @@
+.dn-icon
+{
+	margin: .5rem;
+}
+
+.dn-actor-icon
+{
+	border-radius: 100%;
+	aspect-ratio: 1;
+	margin: .5rem;
+}
+
+.dn-emoji
+{
+	aspect-ratio:1;
+	margin: .5rem;
+}
+
+.dn-icon-sm,
+.dn-actor-icon-sm,
+.dn-emoji-sm
+{
+	width:2rem;
+}
+
+.dn-icon-md,
+.dn-actor-icon-md,
+.dn-emoji-md
+{
+	width:3rem;
+}
+
+.dn-icon-gd,
+.dn-actor-icon-gd,
+.dn-emoji-gd
+{
+	width:3.5rem;
+}
+
+.dn-icon-xd,
+.dn-actor-icon-xd,
+.dn-emoji-xd
+{
+	width:5rem;
+}
+
+.dn-icon-xxd,
+.dn-actor-icon-xxd,
+.dn-emoji-xxd
+{
+	width:10rem;
+}
+
+
+
+
+
+
+
